@@ -27,8 +27,8 @@
    # Windows
    .\run.bat app
 
-   # Linux/Mac
-   .\run.sh app
+       # Linux/Mac
+    ./run.sh app
    ```
    Приложение будет доступно по адресу:
    - API: http://localhost:8000
@@ -39,8 +39,8 @@
    # Windows
    .\run.bat test
 
-   # Linux/Mac
-   .\run.sh test
+       # Linux/Mac
+    ./run.sh test
    ```
 
 ### ⚡ Локальный запуск

@@ -48,6 +48,7 @@ cover/
 *.sqlite
 *.sqlite3
 postgres_data/
+data/
 
 # Logs
 *.log

@@ -5,9 +5,9 @@ services:
       - "8000:8000"
     environment:
       - DEBUG=True
-      - DB_NAME=task_manager.db
+      - DB_NAME=data/task_manager.db
     volumes:
-      - ./task_manager.db:/app/task_manager.db
+      - ./data:/app/data
     command: >
       sh -c "
         alembic upgrade head &&
